@@ -85,13 +85,13 @@
     align-items: center;
   }
   
-  .busca label {
+label {
     color: white;
     font-size: 1.3em;
     margin-top: 3em;
   }
   
-  .busca input {
+input {
     border-radius: 0.5em;
     border: 0;
     outline: none;

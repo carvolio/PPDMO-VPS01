@@ -1,8 +1,7 @@
 import './App.css';
 import { StyleSheet, Text, View, Button, TextInput, FlatList, Image } from 'react-native';
-import { tituloEnquete, setTituloEnquete, opcaoEnquete, setOpcaoEnquete, loading, adicionarEnquete } from './App';
 
-function App2({ isVisible }) {
+function App1({ isVisible, tituloEnquete, setTituloEnquete, opcaoEnquete, setOpcaoEnquete, loading, adicionarEnquete }) {
   return (
     <View>
         <Text>Titulo da Enquete</Text>
@@ -17,7 +16,7 @@ function App2({ isVisible }) {
         placeholder="Digite Sim ou Não para a enquete"
         value={opcaoEnquete}
         onChangeText={setOpcaoEnquete}
-        />
+        />4
         <Button
         title={loading? "Adicionando..." : "Adicionar Enquete"}
         onPress={adicionarEnquete}
@@ -27,4 +26,4 @@ function App2({ isVisible }) {
   );
 }
 
-export default App2;
+export default App1;

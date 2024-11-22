@@ -1,9 +1,9 @@
 import './App.css';
 
-function App3({ isVisible }) {
+function App1({ isVisible }) {
   return (
     <p>visualização</p>
   );
 }
 
-export default App3;
+export default App1;
